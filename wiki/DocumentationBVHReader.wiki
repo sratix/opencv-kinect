@@ -10,7 +10,7 @@ This page is made to give a detailed overview of the functions used in the diffe
 
 
 == [Documentation_Structure Structure] ==
-== [FrameBVH] ==
+== [Documentation_Frame FrameBVH] ==
 == [Pose] ==
 == [Reader] ==
 
