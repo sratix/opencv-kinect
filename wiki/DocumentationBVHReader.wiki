@@ -1,3 +1,4 @@
+#labels Featured,Phase-Implementation
 #Documentation for the source code
 
 = Introduction =
@@ -10,15 +11,21 @@ This page is made to give a detailed overview of the functions used in the diffe
 
 _Class is made to store the joint information._
     _One may augment the class with additional information such as Bone Density, Bone Shape, Bone Length_
+
     _Also when we integrate with PCL (Point Cloud Library), we may begin offering 3D visualization of the bones._
 
 _Listed below are the variables used by this class. These variables encode all important information related to the joint._
-    _Notes regarding variables used.
+    _Notes regarding variables used._
+
     _1- name contains the name of the joint specified in the BVH file._
     _2- offsetCoordinates contain variables stored in the following order X,Y,Z_
+
     _3- endsiteCoordinates contain variables stored in the following order X,Y,Z_
+
     _4- numberOfChannels corresponds to the amount of data given in each frame for this joint._
+
     _5- parentIndex is the index of the parent SubStructure in the Structure array._
+
 
 _Default constructor for the class._
 _Everything is set to null or default value_
