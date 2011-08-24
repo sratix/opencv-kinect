@@ -67,6 +67,8 @@ void SubStructure::print()
 
 }
 
+// Function for pritning a substructure to a file
+// Takes an input of the output stream you have initialized
 void SubStructure::printToFile(std::ofstream& outputStream)
 {
 	outputStream<<"Joint Name: " << name<<std::endl;
