@@ -33,6 +33,7 @@ _Listed below are the variables used by this class. These variables encode all i
 
 ==Public Functions==
 
+===Constructors and Destructors===
 _Default constructor for the class._
 _Everything is set to null or default value_
 {{{
@@ -51,6 +52,8 @@ _Clears all vectors
 ~SubStructure()
 }}}
 
+
+===Display===
 _Display function for the class data_
 _Prints all attribute values to the console_
 {{{
@@ -63,6 +66,8 @@ _Takes an input of the output stream you have initialized_
 void printToFile(std::ofstream& outputStream)
 }}}
 
+
+===Mutator===
 _Mutator for specifying the name of the joint_
 _Default name is an empty string_
 {{{
@@ -96,6 +101,8 @@ _Default number is 0_
 void setNumberOfChannels(int userNumberOfChannels)
 }}}
 
+
+===Accessors===
 _Accessor for obtaining name of joint_
 {{{
 std::string getName()
