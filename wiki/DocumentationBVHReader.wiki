@@ -7,6 +7,36 @@ This page is made to give a detailed overview of the functions used in the diffe
 = Classes =
 
 == [SubStructure] ==
+
+// Class is made to store the joint information.
+    // One may augment the class with additional information such as Bone Density, Bone Shape, Bone Length
+    // Also when we integrate with PCL (Point Cloud Library), we may begin offering 3D visualization of the bones.
+
+// Listed below are the variables used by this class. These variables encode all important information related to the joint.
+    // Notes regarding variables used.
+    // 1- name contains the name of the joint specified in the BVH file.
+    // 2- offsetCoordinates contain variables stored in the following order X,Y,Z
+    // 3- endsiteCoordinates contain variables stored in the following order X,Y,Z
+    // 4- numberOfChannels corresponds to the amount of data given in each frame for this joint.
+    // 5- parentIndex is the index of the parent SubStructure in the Structure array.
+
+// Default constructor for the class.
+// Everything is set to null or default value
+{{{
+SubStructure();
+}}}
+
+// User defined constructor for the class
+// User has to specify all the class variables
+{{{
+SubStructure(std::string sName,std::vector<float> userOffsetCoordinates,std::vector<float> userEndsiteCoordinates,int sNumberOfChannels,int sIndexParent)
+}}}
+
+// Standard destructor for the class
+// Clears all vectors
+{{{
+~SubStructure()
+}}}
 == [Structure] ==
 == [FrameBVH] ==
 == [Pose] ==
