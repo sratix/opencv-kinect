@@ -16,4 +16,4 @@ This page is made to give a detailed overview of the functions used in the diffe
 
 
 
-= SubStructure = 
+== [Documentation_SubStructure.wiki|SubStructure] == 
