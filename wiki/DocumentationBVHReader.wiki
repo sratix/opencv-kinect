@@ -16,4 +16,4 @@ This page is made to give a detailed overview of the functions used in the diffe
 
 
 
-== [SubStructure|http://opencv-kinect.googlecode.com/svn/wiki/Documentation_SubStructure.wiki] == 
+== [SubStructure http://opencv-kinect.googlecode.com/svn/wiki/Documentation_SubStructure.wiki] == 
