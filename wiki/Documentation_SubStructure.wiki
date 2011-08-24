@@ -1,7 +1,7 @@
 #labels Phase-Implementation,Phase-Design
-Documentation For 'SubStructure' Class
+Documentation For *SubStructure* Class
 
-= SubStructure =
+=SubStructure=
 
 Documentation for the Class
 
