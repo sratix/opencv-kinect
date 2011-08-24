@@ -14,7 +14,7 @@ _One may augment the class with additional functions that can be performed on th
 
 ==Class Variables==
 
-_Listed below are the variables used by this class. These variables encode all important information related to the Structure
+_Listed below are the variables used by this class. These variables encode all important information related to the Structure_
     _Notes regarding variables used._
     _1- part is an array of type 'SubStructure' which is used to store all joints of the Structure being defined in the BVH_
     _2- totalParts is used to store the total amount of parts that are present in the Structure once the file has been read_
