@@ -165,7 +165,7 @@ _To augment the Structure with a new component related to the current structure_
 void addSubStructure(SubStructure aSubStructure);
 }}}
 
- _A 2D orthographic Visualization of the entire Structure as described by its current Offsets_
+_A 2D orthographic Visualization of the entire Structure as described by its current Offsets_
 
 _Visualization may be improved by using PCL (Point Cloud Library)_
 
